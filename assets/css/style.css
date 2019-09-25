@@ -3,7 +3,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: black;
-    background: url("../images/concrete_seamless.png");
+    background: url(https://ae01.alicdn.com/kf/HTB1RR2iRXXXXXb9XVXXq6xXFXXX9/HUAYI-White-Grey-Wood-floor-backdrop-photography-background-newborn-backdrop-wood-photography-backgroundXT4679.jpg);
+    background-attachment: fixed;
   }
   
   * {
@@ -60,7 +61,7 @@ body {
     margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
-    background: #ffffff;
+    background: rgb(15, 243, 220);
     border-bottom: 2px solid #cccccc;
   }
   
@@ -75,7 +76,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: hsla(315, 5%, 15%, 0.562);
+    background: hsla(186, 70%, 11%, 0.562);
   }
   
   nav {
@@ -130,14 +131,14 @@ body {
     float: left;
     width: 100%;
     max-width: 650px;
-    padding: 30px;
+    padding: 15px;
     margin: 0 0 40px 0;
-    background: #ffffff;
+    background: white;
     border: 3px solid; color:hsla(315, 5%, 15%, 0.562);
   }
 
   .sidebar {
-    background: #fff;
+    background: white;
     padding: 30px;
     width: 100%;
     max-width: 270px;
@@ -172,10 +173,16 @@ body {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
+    margin: 15px;
+    padding: 5px;
+    /* overflow: auto;  */
   }
   
+  .game {
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+  }
   .work:nth-child(even) {
     margin-right: 40px;
   }
@@ -188,10 +195,10 @@ body {
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
+    bottom: 20px; */
     width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
+    padding: 5px;
+    /* margin-bottom: 0; */
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;
@@ -202,8 +209,8 @@ body {
   
   .auth-image {
     float: left;
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 300px;
     margin-top: 10px;
     margin-right: 25px;
   }
